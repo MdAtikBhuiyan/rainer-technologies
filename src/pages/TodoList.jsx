@@ -55,7 +55,7 @@ const TodoList = () => {
             </div>
             <div className="mt-4 font-medium text-[#2E1619] dark:text-[#D1D5DB] text-sm space-y-5">
                 <div className="flex items-center gap-3">
-                    <input type="checkbox" checked className="" />
+                    <input type="checkbox" checked />
                     
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit. <span className="text-[#E0E0E0] dark:text-[#A6A6A6]">Last Added: 10 sep 2022</span>
                 </div>
