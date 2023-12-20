@@ -1,0 +1,85 @@
+/* google fonts import */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;0,600;0,700;0,800;1,400;1,500;1,600;1,700;1,800&display=swap');
+
+/* tailwind css add */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* common styles */
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+/* dark theme and light theme */
+/* dark mode light mode */
+
+/* [data-theme='light'] {
+    --primary-text: #000;
+    --secondary-text: #747474;
+    --title-primary: #0a303a;
+    --title-secondary: #f04336;
+    --title-optioanl: #0a303a;
+
+    --theme-bg: #fff;
+    --bg: #000;
+    --primary-bg: #D1D5DB;
+    --secondary-bg: #0a303a;
+
+    --primary-bg: #F9F9F9;
+    --secondary-bg: #fff;
+    --others-bg:#FFF5F5;
+
+    --primary-text: #2E1619;
+    --secondary-text: #2E1619;
+    --sidebar_color: #fff;
+}
+
+[data-theme='dark'] {
+    --primary-text: #fff;
+    --secondary-text: #dbdada;
+    --title-primary: #0a303a;
+    --title-secondary: #f04336;
+    --title-optioanl: #fff;
+
+    --theme-bg: #000;
+    --bg: #fff;
+
+    --primary-text: #D1D5DB;
+    --secondary-text: #fff;
+    --primary-bg: #150A09;
+    --secondary-bg: rgba(255, 255, 255, 0.10);
+    --others-bg:rgba(255, 255, 255, 0.10);
+    --sidebar_color: #2E1619;
+} */
+
+
+
+/* customized input box */
+input[type="checkbox"] {
+    box-sizing: border-box;
+    padding: 0;
+    accent-color: #f05f8a;
+}
+
+/* width */
+::-webkit-scrollbar {
+    width: 6px;
+    height: 6px;
+}
+ 
+/* Track */
+::-webkit-scrollbar-track {
+    background: #fff;
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: #FF7594;
+    border-radius: 5px;
+}
+ 
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #555;
+}
